@@ -1,3 +1,58 @@
+/* Colors
+
+Primary Brand #4D5AE5 (CTAs, Focused, Active states, Links)
+
+Pressed state #404BBF (CTAs)
+
+Dark #2E2F42 (Overlays, Shadows, Headings)
+
+Success #31D0AA (Valid fields, Success messages)
+
+Text #434455 (Body text)
+
+Subtle Text #8E8F99 (Helper text, Deemphasized text)
+
+Accent #E7E9FC (Accent color, Hairlines, Subtle backgrounds)
+
+Light #F4F4FD (Light mode backgrounds, Light mode Dialogs/alerts)
+
+Modal overlay #2E2F42 (Overlay)
+
+Hero background #2E2F42 (Hero image background)
+
+White background #FFFFFF (Header, team card background)
+
+Modal background #FCFCFC (Modal background) */
+
 body {
   background-color: #ffffff;
+  color: #434455;
 }
+
+.list {
+  list-style: none;
+}
+/* header */
+.logo {
+  color: #4d5ae5;
+}
+.logo-part {
+  color: #2e2f42;
+}
+
+.site-nav .link {
+  color: #2e2f42;
+}
+.contacts .link {
+  color: #434455;
+}
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.title {
+  color: #ffffff;
+}
+
+/* Section Advantages */
+/* color: #2e2f42; */
