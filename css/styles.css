@@ -1,42 +1,22 @@
-/* Colors
-
-Primary Brand -Iris- #4D5AE5 (CTAs, Focused, Active states, Links)
-
-Pressed state -OCEAN- #404BBF (CTAs)
-
-Dark -Navy blue- #2E2F42 (Overlays, Shadows, Headings)
-
-Success -GREEN- #31D0AA (Valid fields, Success messages)
-
-Text -SLATE- #434455 (Body text)
-
-Subtle -LIGHT SLATE- Text #8E8F99 (Helper text, Deemphasized text)
-
-Accent -cornflower- #E7E9FC (Accent color, Hairlines, Subtle backgrounds)
-
-Light -CLOUD- #F4F4FD (Light mode backgrounds, Light mode Dialogs/alerts)
-
-Modal overlay -NAVY BLU modal- #2E2F42 (Overlay)
-
-Hero background -GREY- #2E2F42 (Hero image background)
-
-White background -WHITE- #FFFFFF (Header, team card background)
-
-Modal background -Dairy- #FCFCFC (Modal background) */
-
 :root {
+  --clean-white: #ffffff;
+  --title: #2e2f42;
   --primary-text: #434455;
-  --primary-background: #ffffff;
-  --hero-background: #2e2f42;
+  --footer-text: #f4f4fd;
   --secondary-background: #f4f4fd;
-  --main-title: #ffffff;
-  --section-title: #2e2f42;
-  --secondary-title: #2e2f42;
+  --hero-background: #2e2f42;
+  --footer-background: #2e2f42;
+  --iris-color: #4d5ae5;
 }
 
 body {
-  background-color: var(--primary-background);
+  background-color: var(--clean-white);
   color: var(--primary-text);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .list {
@@ -47,14 +27,14 @@ body {
 }
 
 /* Header */
-.logo {
-  color: #4d5ae5;
+.header-logo {
+  color: var(--iris-color);
 }
-.logo-part {
-  color: #2e2f42;
+.header-logo-element {
+  color: var(--title);
 }
 .site-nav-item {
-  color: #2e2f42;
+  color: var(--title);
 }
 .site-nav-item:hover {
   color: #404bbf;
@@ -70,20 +50,23 @@ body {
 .hero {
   background-color: var(--hero-background);
 }
-.title {
-  color: var(--main-title);
+.main-title {
+  color: var(--clean-white);
 }
-.order {
+.hero-btn {
+  color: var(--clean-white);
+  background-color: var(--iris-color);
+  cursor: pointer;
 }
 
 /* Section Advantages */
 .secondary-title {
-  color: var(--secondary-title);
+  color: var(--title);
 }
 
 /* Section What are we doing */
 .section-title {
-  color: var(--section-title);
+  color: var(--title);
 }
 
 /* Section Our team */
@@ -92,12 +75,15 @@ body {
 }
 
 /* Footer */
-.botom {
-  background-color: #2e2f42;
+.footer {
+  background-color: var(--footer-background);
 }
-.logo > span {
-  color: #f4f4fd;
+.footer-logo {
+  color: var(--iris-color);
 }
-.botom-text {
-  color: #f4f4fd;
+.footer-logo-element {
+  color: var(--footer-text);
+}
+.footer-text {
+  color: var(--footer-text);
 }
