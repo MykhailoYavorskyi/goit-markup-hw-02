@@ -125,9 +125,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 /* Section Our team */
