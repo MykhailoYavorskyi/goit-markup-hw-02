@@ -81,7 +81,7 @@ body {
 }
 .btn {
   cursor: pointer;
-  font-family: "Roboto", sans-serif 
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -124,7 +124,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -133,11 +133,11 @@ body {
 .team {
   background-color: var(--secondary-background);
 }
-.team-list {
+.team-list-element {
   background-color: var(--clean-white);
 }
 .team-list-text {
-  font-size: 16px
+  font-size: 16px;
 }
 
 /* Footer */
